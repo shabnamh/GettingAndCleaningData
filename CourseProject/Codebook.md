@@ -4,7 +4,7 @@ This codebook describes the variables, data and any transformations performed to
 
 The data source
 --------------------------------------------------------
-* Original data source: [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* Original data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Original description of the data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Data set information
@@ -47,12 +47,12 @@ Note: Each feature vector is a row on the text file
 
 Transformation steps in run_analysis script
 --------------------------------------------------------
-1. load both train and test data
+1. load both train and test data from the 'UCI HAR Dataset' folder 
 2. load activity labels for both data sets and the features
 3. Extract the mean and standard deviation columns with their data after changing the column names in the merged data using the variable names in features
 4. Change the activity names and variable labels to descriptive names
-5. Merged the data
-6. created the new data set
+5. Merge the data
+6. create the new data set
 
 The 81 Variables in the tidydata data set
 --------------------------------------------------------
