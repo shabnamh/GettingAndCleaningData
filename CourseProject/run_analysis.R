@@ -56,4 +56,4 @@ names(merged.data) <- gsub("angle", "Angle",names(merged.data))
 #5.To create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 library(plyr)
 tidydataAve <- ddply(merged.data, c("Subject", "Activity"), numcolwise(mean))
-write.table(tidydataAve,file="tidydata.txt")
+write.table(tidydataAve,file="tidydata.txt", row.name=FALSE)
