@@ -1,13 +1,3 @@
----
-title: "Getting and Cleaning Data- Course Project"
-author: Shabnam Homampour
-date: February 11, 2017
-output: github_documnet
----
-
-
-
-
 Getting and Cleaning Data - Course Project
 ========================================================
 Introduction
@@ -22,7 +12,7 @@ The 'run_analysis' script does the following:
     
 Steps to work on this project
 --------------------------------------------------------
-    1. Download the data source and unzip in your local drive
-    2. Put run_analysis.R in the parent folder where you unzipped the folder.
-    3. Run source("run_analysis.R"), the 'tidaydata.txt' will be generated in your working directory
+    1. Download the data source and unzip in your working directory.
+    2. Move run_analysis.R in the working directory.
+    3. Run 'source("run_analysis.R")' and the 'tidaydata.txt' will be generated in your working directory.
     
